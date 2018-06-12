@@ -6,7 +6,6 @@ function updatePlaylist (obj, key, value) {
 }
 
 function removeFromPlaylist (obj, key) {
-  var toRemove = key
-  delete obj[toRemove]
+  delete obj[key]
   return obj
 }
